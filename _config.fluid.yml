@@ -309,7 +309,7 @@ lazyload:
 
 # 图标库，包含了大量社交类图标，主题依赖的不包含在内，因此可自行修改，详见 https://hexo.fluid-dev.com/docs/icon/
 # Icon library, which includes many social icons, does not include those theme dependent, so your can modify link by yourself. See: https://hexo.fluid-dev.com/docs/en/icon/
-iconfont: https://style-cdn.luolingxue.us.kg/css/blogs/font_1736178_lbnruvf0jn.css
+iconfont: //at.alicdn.com/t/font_1736178_lbnruvf0jn.css
 
 
 #---------------------------
@@ -475,7 +475,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "华夏凤云，洛水天依"
+    text: "An elegant Material-Design theme for Hexo"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -1057,31 +1057,31 @@ static_prefix:
   internal_css: /css
   internal_img: /img
 
-  anchor: https://script-cdn.luolingxue.us.kg/javascript/blogs/
+  anchor: https://lib.baomitu.com/anchor-js/4.3.1/
 
-  github_markdown: https://sytle-cdn.luolingxue.us.kg/css/blogs/
+  github_markdown: https://lib.baomitu.com/github-markdown-css/4.0.0/
 
   jquery: https://script-cdn.luolingxue.us.kg/javascript/blogs/
 
   bootstrap: https://script-cdn.luolingxue.us.kg/javascript/blogs/
 
-  prismjs: https://script-cdn.luolingxue.us.kg/javascript/blogs/
+  prismjs: https://lib.baomitu.com/prism/1.29.0/
 
-  tocbot: https://script-cdn.luolingxue.us.kg/javascript/blogs/
+  tocbot: https://lib.baomitu.com/tocbot/4.20.1/
 
   typed: https://script-cdn.luolingxue.us.kg/javascript/blogs/
 
-  fancybox: https://script-cdn.luolingxue.us.kg/javascript/blogs/
+  fancybox: https://lib.baomitu.com/fancybox/3.5.7/
 
-  nprogress: https://script-cdn.luolingxue.us.kg/javascript/blogs/
+  nprogress: https://lib.baomitu.com/nprogress/0.2.0/
 
   mathjax: https://lib.baomitu.com/mathjax/3.2.2/
 
   katex: https://lib.baomitu.com/KaTeX/0.16.2/
 
-  busuanzi: https://bsuanzi.ibruce.info/busuanzi/2.3/
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
 
-  clipboard: https://script-cdn.luolingxue.us.kg/javascript/blogs/
+  clipboard: https://lib.baomitu.com/clipboard.js/2.0.11/
 
   mermaid: https://lib.baomitu.com/mermaid/8.14.0/
 
