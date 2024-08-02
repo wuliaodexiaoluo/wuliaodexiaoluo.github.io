@@ -1,5 +1,13 @@
 ---
-title: WSL 安装和 Systemd 配置
+post:
+  meta:
+    author:  
+      enable: true
+    date:  # 文章日期，优先根据 front-matter 里 date 字段，其次是 md 文件日期
+      enable: true
+      format: "2024-07-23"  # 格式参照 ISO-8601 日期格式化
+    wordcount:  # 字数统计
+    title: WSL 安装和 Systemd 配置
 ---
 
 <link rel="stylesheet" href="https://style-cdn.luolingxue.us.kg/css/heimu/heimusty.css">
