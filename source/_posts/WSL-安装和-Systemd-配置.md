@@ -2,7 +2,7 @@
 title: WSL 安装和 Systemd 配置
 ---
 
-<link rel="stylesheet" href="https://luolingxue.us.kg/heimu-css/heimusty.css">
+<link rel="stylesheet" href="https://style-cdn.luolingxue.us.kg/css/heimu/heimusty.css">
 
 # WSL 安装和 Systemd 配置
 本来今天是想用虚拟机配置一个 Git 方便我从任何地方同步我的代码
