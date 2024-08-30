@@ -1,0 +1,27 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+
+pages:
+  stage: deploy
+  script:
+    - rm -rf public
+    - mkdir public && cp -rf dist/* public
+  artifacts:
+    paths:
+      - public
+    expire_in: 30 days
+
+cache:
+  paths:
+    - node_modules
+    - dist
+
