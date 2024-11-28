@@ -18,7 +18,10 @@ const merge = (target, ...sources) => {
       if (!Object.prototype.hasOwnProperty.call(source, key)) {
         continue;
       }
-      if (isObject(target[key]) && isObject(source[key])) {
+      if (key === "__proto__" || key === "constructor") {
+        continue;
+      }
+      if (Object.prototype.hasOwnProperty.call(target, key) && isObject(target[key]) && isObject(source[key])) {
         merge(target[key], source[key]);
       } else {
         target[key] = source[key];
