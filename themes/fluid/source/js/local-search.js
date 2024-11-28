@@ -56,7 +56,12 @@
             }
             var orig_data_title = data.title.trim();
             var data_title = orig_data_title.toLowerCase();
-            var orig_data_content = data.content.trim().replace(/<[^>]+>/g, '');
+            var orig_data_content = data.content.trim();
+            var previous;
+            do {
+              previous = orig_data_content;
+              orig_data_content = orig_data_content.replace(/<[^>]+>/g, '');
+            } while (orig_data_content !== previous);
             var data_content = orig_data_content.toLowerCase();
             var data_url = data.url;
             var index_title = -1;
