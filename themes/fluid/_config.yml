@@ -309,7 +309,7 @@ lazyload:
 
 # 图标库，包含了大量社交类图标，主题依赖的不包含在内，因此可自行修改，详见 https://hexo.fluid-dev.com/docs/icon/
 # Icon library, which includes many social icons, does not include those theme dependent, so your can modify link by yourself. See: https://hexo.fluid-dev.com/docs/en/icon/
-iconfont: https://style-cdn.luolingxue.us.kg/css/blogs/font_1736178_lbnruvf0jn.css
+iconfont: https://style-cdn.luotianyi-0712.top/css/blogs/font_1736178_lbnruvf0jn.css
 
 
 #---------------------------
@@ -1059,7 +1059,7 @@ static_prefix:
 
   anchor: https://script-cdn.luotianyi-0712.top/javascript/blogs/
 
-  github_markdown: https://style-cdn.luolingxue.us.kg/css/blogs/
+  github_markdown: https://style-cdn.luotianyi-0712.top/css/blogs/
 
   jquery: https://script-cdn.luotianyi-0712.top/javascript/blogs/
 
